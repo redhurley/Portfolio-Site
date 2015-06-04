@@ -2,6 +2,7 @@ html {
 	position: relative;
 	min-height: 100%;
 }
+
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
@@ -28,18 +29,21 @@ body {
 	display: inline;
 }
 
-#icons-right {
+#icon-left {
+	margin-left: 15px;
+}
+
+#icon-right {
 	padding: 0 6px 0 3px;
 	display: inline;
 }
 
-#social {
-	margin-top: 5px;
-	padding-right: 0px;
+.launches {
+	margin-bottom: 30px;
 }
 
-#zepp-title {
-	margin-top: 0;
+#profile-pic {
+	margin-top: 20px;
 }
 
 .project-title {
@@ -47,37 +51,18 @@ body {
 	margin-bottom: 40px;
 }
 
+#social {
+	margin-top: 5px;
+	padding-right: 0px;
+}
+
 #title {
 	text-align: center;
 	font-weight: 300;
 }
 
-#profile-pic {
-	margin-top: 20px;
-}
-
-#wrap {
-	padding-top: 60px;
-}
-
-.thumb img {
-	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
-	-moz-transition: all 0.3s ease; /* Firefox */
-	-ms-transition: all 0.3s ease; /* IE 9 */
-	-o-transition: all 0.3s ease; /* Opera */
-	transition: all 0.3s ease;
-}
-
-.thumb:hover img {
-	-webkit-transform:scale(1.4); /* Safari and Chrome */
-	-moz-transform:scale(1.4); /* Firefox */
-	-ms-transform:scale(1.4); /* IE 9 */
-	-o-transform:scale(1.4); /* Opera */
-	transform:scale(1.4);
-}
-
-.launches {
-	margin-bottom: 30px;
+#zepp-title {
+	margin-top: 0;
 }
 
 @media screen and (max-width: 992px) {
