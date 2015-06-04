@@ -1,11 +1,11 @@
 html {
-  	position: relative;
-  	min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body {
-  	/* Margin bottom by footer height */
-  	margin-bottom: 60px;
-  	font-family: 'Lato', sans-serif;
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	font-family: "Lato", sans-serif;
 	color: #7e7e7e;
 }
 
@@ -14,13 +14,13 @@ body {
 }
 
 .footer {
-  	position: absolute;
-  	bottom: 0;
-  	width: 100%;
-  	/* Set the fixed height of the footer here */
-  	height: 60px;
-  	background-color: #f5f5f5;
-  	padding-top: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+	padding-top: 20px;
 }
 
 .icons {
@@ -62,18 +62,18 @@ body {
 
 .thumb img {
 	-webkit-transition: all 0.3s ease; /* Safari and Chrome */
-    -moz-transition: all 0.3s ease; /* Firefox */
-    -ms-transition: all 0.3s ease; /* IE 9 */
-    -o-transition: all 0.3s ease; /* Opera */
-    transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease; /* Firefox */
+	-ms-transition: all 0.3s ease; /* IE 9 */
+	-o-transition: all 0.3s ease; /* Opera */
+	transition: all 0.3s ease;
 }
 
 .thumb:hover img {
-    -webkit-transform:scale(1.4); /* Safari and Chrome */
-    -moz-transform:scale(1.4); /* Firefox */
-    -ms-transform:scale(1.4); /* IE 9 */
-    -o-transform:scale(1.4); /* Opera */
-     transform:scale(1.4);
+	-webkit-transform:scale(1.4); /* Safari and Chrome */
+	-moz-transform:scale(1.4); /* Firefox */
+	-ms-transform:scale(1.4); /* IE 9 */
+	-o-transform:scale(1.4); /* Opera */
+	transform:scale(1.4);
 }
 
 .launches {
@@ -84,6 +84,7 @@ body {
 	.project-image {
 		width: 100%;
 	}
+	
 	.project-title {
 		margin-top: 8px;
 	}
